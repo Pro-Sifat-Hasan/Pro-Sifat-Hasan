@@ -59,6 +59,6 @@ Whether it’s a small idea or a large-scale agentic app—let’s bring it to l
 
 If you like what I do, feel free to ⭐️ my projects and follow for more AI magic!
 
-> _“Let’s make AI helpful, human, and unstoppable.”_  
+> _“Let’s make AI helpful for everyone.”_  
 — Sifat Hasan
 
