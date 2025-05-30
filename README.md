@@ -22,8 +22,8 @@ I'm Sifat Hasan, a passionate **AI Developer** focused on creating powerful, rea
 - **Languages:** Python, JavaScript, HTML/CSS  
 - **AI & ML:** LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch  
 - **Voice AI:** VAPI, ElevenLabs, Google STT  
-- **Web & App:** Streamlit, Flask, FastAPI, Telegram/WhatsApp Bots, Google Cloud  
-- **Tools:** Git, Docker, VS Code, Postman, Jupyter
+- **Web & App:** Streamlit, FastAPI, Telegram/WhatsApp Bots, Google Cloud  
+- **Tools:** Github, Docker, VS Code, Jupyter
 
 ---
 
