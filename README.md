@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Sifat Hasan (Pro-Sifat-Hasan)
+# 👋 Hi, I'm Sifat Hasan
 
 🚀 **AI Developer at [NeuroBrain](https://neurobrains.co/)**  
 🤖 Building Intelligent Systems | LLMs | RAG | ChatBots | Voice AI | Agentic Automation  
