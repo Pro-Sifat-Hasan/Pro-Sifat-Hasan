@@ -5,6 +5,12 @@
 📍 Based in Pabna, Bangladesh  
 🌐 [LinkedIn](https://www.linkedin.com/in/prosifathasan) • [Twitter/X](https://twitter.com/ProSifatHasan) • [Portfolio](https://neurobrains.co/)
 
+
+[![ala's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Pro-Sifat-Hasan&theme=dark)](https://git.io/streak-stats)
+
+[![Ala's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=radical)](https://github.com/Pro-Sifat-Hasan/github-readme-stats)
+
+
 ---
 
 ## 🧠 About Me
