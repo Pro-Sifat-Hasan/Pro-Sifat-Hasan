@@ -92,7 +92,7 @@ Whether it’s a small idea or a large-scale agentic app — let’s bring it to
 <h2 align="center">📈 GitHub Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Sifat-Hasan&theme=dark" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Sifat-Hasan&theme=dark" alt="GitHub Streak" /> 
 </p>
 
 <p align="center">
