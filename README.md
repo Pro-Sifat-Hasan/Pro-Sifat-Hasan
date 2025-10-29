@@ -80,7 +80,7 @@ AI Developer building production-grade intelligent systems at <a href="https://n
   <a href="https://www.linkedin.com/in/prosifathasan">
     <img src="https://img.shields.io/badge/Let's_Talk-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:sihabhossan633@gmail.com">
     <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
