@@ -1,30 +1,118 @@
-name: 🧠 Update GitHub Streak Stats
+name: 🧠 Update GitHub Streak Stats (robust)
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs every day at midnight UTC
-  workflow_dispatch:       # Allow manual runs from Actions tab
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  workflow_dispatch:
 
 permissions:
-  contents: write          # ✅ Allows pushing commits
+  contents: write
 
 jobs:
   update-streak:
     runs-on: ubuntu-latest
 
+    env:
+      USERNAME: Pro-Sifat-Hasan
+      OUT_DIR: assets
+      OUT_FILE: assets/streak-stats.svg
+      PRIMARY_URL: "https://streak-stats.demolab.com?user=Pro-Sifat-Hasan&theme=dark"
+      FALLBACK_URL: "https://github-readme-streak-stats.vercel.app?user=Pro-Sifat-Hasan&theme=dark"
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest GitHub Streak image
-        run: |
-          mkdir -p assets
-          curl -L "https://streak-stats.demolab.com?user=Pro-Sifat-Hasan&theme=dark" -o assets/streak-stats.svg
+      - name: Create output dir
+        run: mkdir -p ${{ env.OUT_DIR }}
 
-      - name: Commit and push changes
+      - name: Fetch streak image (primary) with retries
+        run: |
+          TMP1=$(mktemp)
+          echo "Fetching primary: $PRIMARY_URL"
+          # curl: fail on http errors, follow redirects, timeout if slow, retry on transient errors
+          curl --fail --location --max-time 20 --retry 3 --retry-delay 5 "$PRIMARY_URL" -o "$TMP1" || true
+          # save for inspection
+          mv "$TMP1" "${{ env.OUT_DIR }}/.last_streak_tmp1.svg"
+          echo "Saved tmp1 to ${{ env.OUT_DIR }}/.last_streak_tmp1.svg"
+          ls -l "${{ env.OUT_DIR }}/.last_streak_tmp1.svg"
+
+      - name: Validate primary fetch
+        id: validate_primary
+        run: |
+          TMP="${{ env.OUT_DIR }}/.last_streak_tmp1.svg"
+          ok=0
+          if [ -f "$TMP" ]; then
+            size=$(stat -c%s "$TMP")
+            echo "Primary file size: $size"
+            # quick content checks: SVG header and absence of failure strings
+            if grep -qi "<svg" "$TMP" && ! grep -Ei "failed to retrieve|error fetching|rate limit|internal error|502|403" "$TMP"; then
+              if [ "$size" -ge 1000 ]; then
+                ok=1
+              fi
+            fi
+          fi
+          echo "primary_ok=$ok" >> $GITHUB_OUTPUT
+
+      - name: If primary valid, move to final file
+        if: steps.validate_primary.outputs.primary_ok == '1'
+        run: |
+          echo "Primary image looks good — moving to ${OUT_FILE}"
+          mv "${{ env.OUT_DIR }}/.last_streak_tmp1.svg" "${{ env.OUT_FILE }}"
+
+      - name: Try fallback if primary invalid
+        if: steps.validate_primary.outputs.primary_ok != '1'
+        run: |
+          echo "Primary failed, trying fallback: $FALLBACK_URL"
+          TMP2=$(mktemp)
+          curl --fail --location --max-time 20 --retry 3 --retry-delay 5 "$FALLBACK_URL" -o "$TMP2" || true
+          mv "$TMP2" "${{ env.OUT_DIR }}/.last_streak_tmp2.svg"
+          echo "Saved tmp2 to ${{ env.OUT_DIR }}/.last_streak_tmp2.svg"
+          ls -l "${{ env.OUT_DIR }}/.last_streak_tmp2.svg"
+
+      - name: Validate fallback fetch
+        if: steps.validate_primary.outputs.primary_ok != '1'
+        id: validate_fallback
+        run: |
+          TMP="${{ env.OUT_DIR }}/.last_streak_tmp2.svg"
+          ok=0
+          if [ -f "$TMP" ]; then
+            size=$(stat -c%s "$TMP")
+            echo "Fallback file size: $size"
+            if grep -qi "<svg" "$TMP" && ! grep -Ei "failed to retrieve|error fetching|rate limit|internal error|502|403" "$TMP"; then
+              if [ "$size" -ge 1000 ]; then
+                ok=1
+              fi
+            fi
+          fi
+          echo "fallback_ok=$ok" >> $GITHUB_OUTPUT
+
+      - name: If fallback valid, move to final file
+        if: steps.validate_primary.outputs.primary_ok != '1' && steps.validate_fallback.outputs.fallback_ok == '1'
+        run: |
+          echo "Fallback image looks good — moving to ${OUT_FILE}"
+          mv "${{ env.OUT_DIR }}/.last_streak_tmp2.svg" "${{ env.OUT_FILE }}"
+
+      - name: No valid image found — keep existing file and fail gracefully
+        if: steps.validate_primary.outputs.primary_ok != '1' && (steps.validate_fallback.outputs.fallback_ok != '1' || steps.validate_fallback.outputs.fallback_ok == '')
+        run: |
+          echo "Neither primary nor fallback produced a valid streak SVG."
+          echo "Check the saved temp files in ${{ env.OUT_DIR }} for debugging:"
+          ls -la ${{ env.OUT_DIR }}
+          echo "Contents (first 40 lines) of tmp files:"
+          for f in ${{ env.OUT_DIR }}/.last_streak_tmp*.svg; do
+            if [ -f "$f" ]; then
+              echo "=== $f ==="
+              head -n 40 "$f" || true
+            fi
+          done
+          # exit 0 so workflow doesn't create a broken commit; we prefer no update to broken image
+          echo "Exiting without committing to avoid replacing good image with bad one."
+          exit 0
+
+      - name: Commit and push changes (if there are changes)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/streak-stats.svg
-          git commit -m "🧠 Update GitHub Streak Stats [skip ci]" || echo "No changes to commit"
-          git push
+          git add "${{ env.OUT_FILE }}" || true
+          git diff --staged --quiet || (git commit -m "🧠 Update GitHub Streak Stats [skip ci]" && git push)
