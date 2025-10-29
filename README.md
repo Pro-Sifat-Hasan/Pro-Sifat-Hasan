@@ -91,9 +91,7 @@ Whether it’s a small idea or a large-scale agentic app — let’s bring it to
 
 <h2 align="center">📈 GitHub Analytics</h2>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Pro-Sifat-Hasan&theme=dark" alt="GitHub Streak" />
-</p>
+![GitHub Streak](./assets/streak-stats.svg)
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=radical" alt="GitHub Stats" />
