@@ -110,3 +110,17 @@ If you like what I do, please ⭐ my projects and follow for more AI magic!
 <p align="center">
   <i>“Let’s make AI helpful for everyone.”</i><br>— <b>Sifat Hasan</b>
 </p>
+
+##### Below are some cool quotes, that are automatically generated daily by AI
+
+[![Update Daily Quote with LLM](https://github.com/bedead/bedead/actions/workflows/daily-quote.yml/badge.svg?event=workflow_dispatch)](https://github.com/bedead/bedead/actions/workflows/daily-quote.yml)
+[![GitHub profile visits](https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=brightgreen&abbreviated=true)](https://github.com/Pro-Sifat-Hasan)
+
+## Cool Quote
+
+<!-- QUOTE:START -->
+##### 🌟 *2025-10-29*
+
+###### My code is self-documenting. It screams its intentions when it crashes.
+<!-- QUOTE:END -->
+
