@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"   # Runs every day at midnight UTC
   workflow_dispatch:       # Allow manual runs from Actions tab
 
+permissions:
+  contents: write          # ✅ Allows pushing commits
+
 jobs:
   update-streak:
     runs-on: ubuntu-latest
