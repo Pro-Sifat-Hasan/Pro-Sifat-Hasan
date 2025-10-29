@@ -1,9 +1,8 @@
 <h1 align="center">Sifat Hasan</h1>
 
 <p align="center">
-  <b>AI Developer @ <a href="https://neurobrains.co/">NeuroBrain</a></b><br>
-  Specializing in LLMs • RAG • Voice AI • Agentic Systems<br>
-  📍 Pabna, Bangladesh
+  <b>AI Engineer @ <a href="https://neurobrains.co/">NeuroBrain</a></b><br>
+  Building Production AI Systems • LLMs • RAG • Voice AI • Agents
 </p>
 
 <p align="center">
@@ -14,51 +13,84 @@
 
 ---
 
-### About
-
-AI Developer building production-grade intelligent systems. Focused on creating scalable chatbots, voice agents, and RAG-powered applications that solve real business problems.
-
-**Core Expertise:** LLM Integration • Conversational AI • Retrieval Systems • Autonomous Agents
-
----
-
-### Tech Stack
-
-**AI/ML:** LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch  
-**Voice:** VAPI, ElevenLabs, Google STT  
-**Development:** Python, FastAPI, Streamlit, Docker  
-**Cloud:** Google Cloud Platform
-
----
-
-### What I Build
-
-- 🤖 Enterprise chatbots with memory and tool integration
-- 🗣️ Natural voice assistants for customer service
-- 📚 RAG systems for intelligent document processing
-- ⚡ Workflow automation agents
+### 🎯 Expertise
+```typescript
+const sifat = {
+    role: "AI Engineer",
+    focus: ["LLM Integration", "RAG Systems", "Voice AI", "Agent Frameworks"],
+    stack: {
+        ai: ["LangChain", "OpenAI", "HuggingFace", "FAISS", "PyTorch"],
+        voice: ["VAPI", "ElevenLabs", "Whisper"],
+        backend: ["Python", "FastAPI", "Docker", "GCP"]
+    },
+    building: "Scalable AI solutions for enterprise automation"
+};
+```
 
 ---
 
-### GitHub Stats
+### 📊 Performance Metrics
 
 <p align="center">
-  <img src="./assets/streak-stats.svg" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Sifat-Hasan&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pro-Sifat-Hasan&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pro-Sifat-Hasan&theme=github_dark&utcOffset=6" width="48%" />
 </p>
 
 ---
 
+### 🏆 Achievement Highlights
+
 <p align="center">
-  <b>Open to collaborations</b> • Reach out on <a href="https://www.linkedin.com/in/prosifathasan">LinkedIn</a>
+  <img src="https://github-profile-trophy.vercel.app/?username=Pro-Sifat-Hasan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" />
+</p>
+
+---
+
+### 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pro-Sifat-Hasan&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" />
+</p>
+
+---
+
+### 💼 What I Build
+
+- **Enterprise Chatbots** → Context-aware AI assistants with memory & tools
+- **Voice Agents** → Natural conversational AI for customer engagement  
+- **RAG Systems** → Intelligent document retrieval & knowledge bases
+- **Automation Agents** → Workflow orchestration with LLM reasoning
+
+---
+
+### 🔥 Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+### 📫 Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/prosifathasan">
+    <img src="https://img.shields.io/badge/Let's_Talk-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=58a6ff"><img src="https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=58a6ff&abbreviated=true" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=58a6ff&style=flat-square&label=Profile+Views" />
 </p>
+
+---
 
 <!-- QUOTE:START -->
 ##### 🌟 *2025-10-29*
