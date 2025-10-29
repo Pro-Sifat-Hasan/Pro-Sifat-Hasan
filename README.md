@@ -1,126 +1,66 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#58a6ff;">Sifat Hasan</span></h1>
+<h1 align="center">Sifat Hasan</h1>
 
 <p align="center">
-  <a href="https://neurobrains.co/"><b>🚀 AI Developer @ NeuroBrain</b></a><br>
-  🤖 Building Intelligent Systems — <b>LLMs</b> | <b>RAG</b> | <b>ChatBots</b> | <b>Voice AI</b> | <b>Agentic Automation</b><br>
+  <b>AI Developer @ <a href="https://neurobrains.co/">NeuroBrain</a></b><br>
+  Specializing in LLMs • RAG • Voice AI • Agentic Systems<br>
   📍 Pabna, Bangladesh
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/prosifathasan"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/ProSifatHasan"><img src="https://img.shields.io/badge/Twitter/X-000000?style=flat-square&logo=x&logoColor=white"/></a>
+  <a href="https://twitter.com/ProSifatHasan"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white"/></a>
   <a href="https://neurobrains.co/"><img src="https://img.shields.io/badge/Portfolio-58a6ff?style=flat-square&logo=firefox-browser&logoColor=white"/></a>
 </p>
 
 ---
 
-<h2>🧠 About Me</h2>
+### About
 
-<p>
-I'm <b>Sifat Hasan</b>, a passionate <b>AI Developer</b> focused on creating real-world intelligent systems that enhance automation and human–computer interaction.  
-Currently, I’m working at <a href="https://neurobrains.co/"><b>NeuroBrain</b></a>, building next-gen AI assistants for global clients.
-</p>
+AI Developer building production-grade intelligent systems. Focused on creating scalable chatbots, voice agents, and RAG-powered applications that solve real business problems.
 
-<ul>
-  <li>💡 Building <b>Chatbots</b>, <b>Voice Agents</b>, and <b>LLM Tools</b> from scratch</li>
-  <li>🔍 Specializing in <b>Retrieval-Augmented Generation (RAG)</b> and <b>Agentic AI</b></li>
-  <li>🧩 Love creating <b>autonomous AI systems</b> that solve real-world problems</li>
-</ul>
+**Core Expertise:** LLM Integration • Conversational AI • Retrieval Systems • Autonomous Agents
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
+### Tech Stack
 
-<table>
-<tr>
-<td><b>Languages</b></td>
-<td>Python, JavaScript, HTML, CSS</td>
-</tr>
-<tr>
-<td><b>AI & ML</b></td>
-<td>LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch</td>
-</tr>
-<tr>
-<td><b>Voice AI</b></td>
-<td>VAPI, ElevenLabs, Google STT</td>
-</tr>
-<tr>
-<td><b>Web & App</b></td>
-<td>FastAPI, Streamlit, Telegram/WhatsApp Bots, Google Cloud</td>
-</tr>
-<tr>
-<td><b>Tools</b></td>
-<td>GitHub, Docker, VS Code, Jupyter</td>
-</tr>
-</table>
+**AI/ML:** LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch  
+**Voice:** VAPI, ElevenLabs, Google STT  
+**Development:** Python, FastAPI, Streamlit, Docker  
+**Cloud:** Google Cloud Platform
 
 ---
 
-<h2>🧩 Featured Projects</h2>
+### What I Build
 
-<p>🚀 Actively working on <b>open-source AI tools</b> and contributing to innovative ideas.</p>
-
-<ul>
-  <li>🔗 <b>LLM + RAG</b> integrated AI applications</li>
-  <li>🗣️ <b>Conversational agents</b> with memory and external tools</li>
-  <li>🎤 <b>Voice assistants</b> that interact naturally like humans</li>
-  <li>⚙️ <b>Automation agents</b> for real-world workflows</li>
-</ul>
+- 🤖 Enterprise chatbots with memory and tool integration
+- 🗣️ Natural voice assistants for customer service
+- 📚 RAG systems for intelligent document processing
+- ⚡ Workflow automation agents
 
 ---
 
-<h2>🏆 Achievements & Organizations</h2>
-
-<ul>
-  <li>🥇 <b>Achievement:</b> Pair Extraordinaire</li>
-  <li>👥 <b>Organization:</b> Member at <a href="https://github.com/neurobrains">@neurobrain</a></li>
-</ul>
-
----
-
-<h2>🌟 Let's Collaborate!</h2>
-
-<p>
-I’m always excited to collaborate on impactful AI projects.  
-Whether it’s a small idea or a large-scale agentic app — let’s bring it to life together.  
-<br>
-📬 Reach me on <a href="https://www.linkedin.com/in/prosifathasan"><b>LinkedIn</b></a> or <a href="https://twitter.com/ProSifatHasan"><b>Twitter</b></a>.
-</p>
-
----
-
-<h2 align="center">📈 GitHub Analytics</h2>
+### GitHub Stats
 
 <p align="center">
-  <img src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
+  <img src="./assets/streak-stats.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
 </p>
 
 ---
 
-<h2 align="center">🙏 Thanks for Visiting</h2>
-
 <p align="center">
-If you like what I do, please ⭐ my projects and follow for more AI magic!  
+  <b>Open to collaborations</b> • Reach out on <a href="https://www.linkedin.com/in/prosifathasan">LinkedIn</a>
 </p>
 
 <p align="center">
-  <i>“Let’s make AI helpful for everyone.”</i><br>— <b>Sifat Hasan</b>
+  <a href="https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=58a6ff"><img src="https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=58a6ff&abbreviated=true" /></a>
 </p>
-
-##### Below are some cool quotes, that are automatically generated daily by AI
-
-[![Update Daily Quote with LLM](https://github.com/bedead/bedead/actions/workflows/daily-quote.yml/badge.svg?event=workflow_dispatch)](https://github.com/bedead/bedead/actions/workflows/daily-quote.yml)
-[![GitHub profile visits](https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=brightgreen&abbreviated=true)](https://github.com/Pro-Sifat-Hasan)
-
-## Cool Quote
 
 <!-- QUOTE:START -->
 ##### 🌟 *2025-10-29*
-
 ###### My code is self-documenting. It screams its intentions when it crashes.
 <!-- QUOTE:END -->
-
