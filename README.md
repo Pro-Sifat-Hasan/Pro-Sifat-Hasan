@@ -13,32 +13,41 @@
 
 ---
 
-### 🎯 Expertise
-```typescript
-const sifat = {
-    role: "AI Engineer",
-    focus: ["LLM Integration", "RAG Systems", "Voice AI", "Agent Frameworks"],
-    stack: {
-        ai: ["LangChain", "OpenAI", "HuggingFace", "FAISS", "PyTorch"],
-        voice: ["VAPI", "ElevenLabs", "Whisper"],
-        backend: ["Python", "FastAPI", "Docker", "GCP"]
-    },
-    building: "Scalable AI solutions for enterprise automation"
-};
-```
+### About Me
+
+AI Developer building production-grade intelligent systems at <a href="https://neurobrains.co/"><b>NeuroBrain</b></a>. Focused on creating scalable chatbots, voice agents, and RAG-powered applications that solve real business problems.
+
+**Core Expertise:** LLM Integration • Conversational AI • Retrieval Systems • Autonomous Agents
 
 ---
 
-### 📊 Performance Metrics
+### 🎯 Tech Stack
+
+**AI/ML:** LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch  
+**Voice AI:** VAPI, ElevenLabs, Google STT, Whisper  
+**Development:** Python, JavaScript, FastAPI, Streamlit, Docker  
+**Cloud & Tools:** Google Cloud Platform, GitHub, VS Code
+
+---
+
+### 💼 What I Build
+
+- **Enterprise Chatbots** → Context-aware AI assistants with memory & tools
+- **Voice Agents** → Natural conversational AI for customer engagement  
+- **RAG Systems** → Intelligent document retrieval & knowledge bases
+- **Automation Agents** → Workflow orchestration with LLM reasoning
+
+---
+
+### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pro-Sifat-Hasan&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" width="48%" />
+  <img src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pro-Sifat-Hasan&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pro-Sifat-Hasan&theme=github_dark&utcOffset=6" width="48%" />
 </p>
 
 ---
@@ -56,15 +65,6 @@ const sifat = {
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pro-Sifat-Hasan&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" />
 </p>
-
----
-
-### 💼 What I Build
-
-- **Enterprise Chatbots** → Context-aware AI assistants with memory & tools
-- **Voice Agents** → Natural conversational AI for customer engagement  
-- **RAG Systems** → Intelligent document retrieval & knowledge bases
-- **Automation Agents** → Workflow orchestration with LLM reasoning
 
 ---
 
@@ -91,7 +91,6 @@ const sifat = {
 </p>
 
 ---
-
 <!-- QUOTE:START -->
 ##### 🌟 *2025-10-29*
 ###### My code is self-documenting. It screams its intentions when it crashes.
