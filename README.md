@@ -17,26 +17,6 @@
 
 AI Developer building production-grade intelligent systems at <a href="https://neurobrains.co/"><b>NeuroBrain</b></a>. Focused on creating scalable chatbots, voice agents, and RAG-powered applications that solve real business problems.
 
-**Core Expertise:** LLM Integration • Conversational AI • Retrieval Systems • Autonomous Agents
-
----
-
-### 🎯 Tech Stack
-
-**AI/ML:** LangChain, OpenAI, HuggingFace, Transformers, FAISS, PyTorch  
-**Voice AI:** VAPI, ElevenLabs, Google STT, Whisper  
-**Development:** Python, JavaScript, FastAPI, Streamlit, Docker  
-**Cloud & Tools:** Google Cloud Platform, GitHub, VS Code
-
----
-
-### 💼 What I Build
-
-- **Enterprise Chatbots** → Context-aware AI assistants with memory & tools
-- **Voice Agents** → Natural conversational AI for customer engagement  
-- **RAG Systems** → Intelligent document retrieval & knowledge bases
-- **Automation Agents** → Workflow orchestration with LLM reasoning
-
 ---
 
 ### 📊 GitHub Analytics
