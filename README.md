@@ -47,13 +47,6 @@ AI Developer building production-grade intelligent systems at <a href="https://n
 
 ---
 
-### 🔥 Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
 ### 📫 Connect
 
 <p align="center">
