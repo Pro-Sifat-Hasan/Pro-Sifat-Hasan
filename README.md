@@ -63,6 +63,9 @@ AI Developer building production-grade intelligent systems at <a href="https://n
 </p>
 
 ---
+[![Update Daily Quote with LLM](https://github.com/Pro-Sifat-Hasan/Pro-Sifat-Hasan/actions/workflows/daily-quote.yml/badge.svg?event=workflow_dispatch)](https://github.com/Pro-Sifat-Hasan/Pro-Sifat-Hasan/actions/workflows/daily-quote.yml)
+[![GitHub profile visits](https://komarev.com/ghpvc/?username=Pro-Sifat-Hasan&color=brightgreen&abbreviated=true)](https://github.com/Pro-Sifat-Hasan)
+
 <!-- QUOTE:START -->
 ##### 🌟 *2025-10-31*
 ###### My code is self-documenting. It screams its intentions when it crashes.
