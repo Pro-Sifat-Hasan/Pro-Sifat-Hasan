@@ -2,7 +2,8 @@ name: Update Daily Quote with LLM
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # main
+    - cron: "30 0 * * *"  # backup
   workflow_dispatch:
 
 permissions:
