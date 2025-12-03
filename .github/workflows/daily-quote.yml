@@ -2,8 +2,8 @@ name: Update Daily Quote with LLM
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # main
-    - cron: "30 0 * * *"  # backup
+    - cron: "0 0 * * *"     # 6:00 AM BD
+
   workflow_dispatch:
 
 permissions:
@@ -12,10 +12,10 @@ permissions:
 jobs:
   update-quote:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -29,12 +29,14 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: python main.py
+        run: |
+          set -e
+          python main.py
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add README.md
-          git commit -m "chore: update daily quote" || echo "No changes"
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add README.md || true
+          git diff --staged --quiet || (git commit -m "chore: update daily quote [skip ci]" && git push)
