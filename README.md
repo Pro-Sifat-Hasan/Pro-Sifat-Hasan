@@ -25,9 +25,25 @@ AI Developer building production-grade intelligent systems at <a href="https://n
   <img src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pro-Sifat-Hasan&show_icons=true&theme=dark" alt="GitHub Stats" />
-</p>
+
+<div align="center">
+
+<!-- Profile Details -->
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Pro-Sifat-Hasan&theme=blue_green" alt="Profile Details" style="width: 100%;"/>
+
+<br/>
+
+<!-- Top Row: Languages -->
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Pro-Sifat-Hasan&theme=blue_green" alt="Repos per Language" height="180"/>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Pro-Sifat-Hasan&theme=blue_green" alt="Most Commit Language" height="180"/>
+
+<br/>
+
+<!-- Middle Row: General Stats -->
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Pro-Sifat-Hasan&theme=blue_green" alt="GitHub Stats" height="180"/>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Pro-Sifat-Hasan&theme=blue_green&utcOffset=6" alt="Productive Time" height="180"/>
+
+</div>
 
 ---
 
