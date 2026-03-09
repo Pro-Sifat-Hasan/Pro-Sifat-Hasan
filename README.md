@@ -49,7 +49,7 @@ AI Developer building production-grade intelligent systems at <a href="https://n
 ### 🏆 Achievement Highlights
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Pro-Sifat-Hasan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=Pro-Sifat-Hasan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" />
 </p>
 
 ---
