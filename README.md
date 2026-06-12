@@ -81,7 +81,7 @@ AI Developer building production-grade intelligent systems at <a href="https://n
 [![Update Daily Quote with LLM](https://github.com/Pro-Sifat-Hasan/Pro-Sifat-Hasan/actions/workflows/daily-quote.yml/badge.svg?event=workflow_dispatch)](https://github.com/Pro-Sifat-Hasan/Pro-Sifat-Hasan/actions/workflows/daily-quote.yml)
 
 <!-- QUOTE:START -->
-##### 🌟 *2026-06-11*
+##### 🌟 *2026-06-12*
 
-###### "The creative spirit reimagines reality; innovation then sculpts its bold whispers into tangible new worlds."
+###### Coding is the easy part. Knowing *why* you're coding, and for whom, is the real challenge.
 <!-- QUOTE:END -->
